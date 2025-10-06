@@ -1,3 +1,7 @@
 #html{height: 40vh; width: auto;}
 
 #css{height: 60vh; width: auto;}
+
+li{float: none;}
+
+.navbar li{background-color: darkgrey; float: left;}

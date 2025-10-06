@@ -1,7 +1,5 @@
-/*I will most likely use this for just index, however I will include a couple of element selectors since this page is linked to all pages and that's required
-for this week, I made css files for all pages to keep styles seperated, usually involving id's, but I will include what's required befoe I do anything later*/
+/*I will most likely use this for just index. I did make css files for all pages to keep styles seperated, usually involving id's, but I will include what's required befoe I do anything later*/
 
-/*kinda just adding things I might use later, kinda having a little fun with this page, I'll change the css later*/
 /*also just found out that the second css file linked overides the first one!, so linking 2 shouldn't be an issue*/
 
 /*also, here's the reveiw questions I didn't know where to put them:
@@ -11,8 +9,10 @@ An html tag is used as the structure and content of the page, 10 exaples include
 2 tags that don't require a closing tag are link tags and img tags.
 
 an html attribute is something that goes onto an html tag to modify it, id and class are usually the most popular and it's used in this site.
-
 */
+
+
+/*general styles that affect everything*/
 
 body{background-color: black;}
 
@@ -32,3 +32,14 @@ a{color: blue; transition: all 0.3s; font-size: 2vh;}
 
 a:hover{color: aqua;}
 
+
+/*styles for the navbar*/
+
+.navbar{background-color: blue; float: left;}
+
+.navbar ul{background-color: darkgray; list-style-type: none; margin: 0; padding: 0; overflow: hidden;}
+li{float: left;}
+
+li a{display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 20px; font-family: Arial, sans-serif;}
+
+li a:hover{background-color: #111;}
